@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<perfumes>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="perfume_shop.xsl"?>
+<perfume_catalog>
     <section name = "Women's Perfume">
         <perfume sale = "true">
             <brand>Paco Rabanne</brand>
@@ -100,4 +101,4 @@
             <price>€97.00</price>
         </perfume>
     </section>
-</perfumes>
+</perfume_catalog>
