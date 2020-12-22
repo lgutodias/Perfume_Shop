@@ -1,4 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <perfumes>
-    
+    <section name = "Women's Perfume">
+        <perfume sale = "true">
+            <brand>Paco Rabanne</brand>
+            <name>Olympea</name>
+            <size>80ml</size>
+            <price>€90.00</price>
+        </perfume>
+        <perfume>
+            <brand>Gucci</brand>
+            <name>Bamboo</name>
+            <size>75ml</size>
+            <price>€125.00</price>
+        </perfume>
+        <perfume>
+            <brand>Carolina Herrera</brand>
+            <name>Good Girl</name>
+            <size>80ml</size>
+            <price>€102.00</price>
+        </perfume>
+        <perfume>
+            <brand>Versace</brand>
+            <name>Vanitas</name>
+            <size>100ml</size>
+            <price>€66.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <brand>Yves Saint Laurent</brand>
+            <name>Paris</name>
+            <size>125ml</size>
+            <price>€65.00</price>
+        </perfume>
+        <perfume>
+            <brand>Armani</brand>
+            <name>Diamonds Rose</name>
+            <size>50ml</size>
+            <price>€48.00</price>
+        </perfume>
+        <perfume>
+            <brand>Chanel</brand>
+            <name>Coco Mademoiselle</name>
+            <size>100ml</size>
+            <price>€132.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <brand>Calvin Klein</brand>
+            <name>Eternity Moment</name>
+            <size>100ml</size>
+            <price>€30.00</price>
+        </perfume>
+    </section>
+    <section name = "Men's Perfume">
+        <perfume>
+            <brand>Hugo Boss</brand>
+            <name>Boss Bottled Night</name>
+            <size>100ml</size>
+            <price>€53.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <brand>Dior</brand>
+            <name>Sauvage</name>
+            <size>100ml</size>
+            <price>€95.00</price>
+        </perfume>
+        <perfume>
+            <brand>Paco Rabanne</brand>
+            <name>Invictus</name>
+            <size>100ml</size>
+            <price>€79.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <brand>Chanel</brand>
+            <name>Bleu de Chanel</name>
+            <size>100ml</size>
+            <price>€105.00</price>
+        </perfume>
+        <perfume>
+            <brand>Versace</brand>
+            <name>Pour Homme</name>
+            <size>100ml</size>
+            <price>€47.00</price>
+        </perfume>
+        <perfume>
+            <brand>Ralph Lauren</brand>
+            <name>Polo Red</name>
+            <size>75ml</size>
+            <price>€62.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <brand>Armani</brand>
+            <name>Diamonds For Men</name>
+            <size>75ml</size>
+            <price>€55.00</price>
+        </perfume>
+        <perfume>
+            <brand>Gucci</brand>
+            <name>Guilty</name>
+            <size>90ml</size>
+            <price>€97.00</price>
+        </perfume>
+    </section>
 </perfumes>
