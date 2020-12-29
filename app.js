@@ -10,7 +10,7 @@ var router = express();
 var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'views')));
-router.use(express.urlencoded({extented: true}));
+router.use(express.urlencoded({extended: true}));
 router.use(express.json());
 
 function xmlFiletoJs(filename, cb) {
@@ -50,6 +50,32 @@ router.get('/', function(req, res) {
     res.end(result.toString()); 
 
 });
+
+router.post('/post/json', function (req, res) {
+
+    function appendJSON(obj) {
+
+        console.log(obj)
+
+        xmlFileToJs('perfume_shop.xml', function (err, result) {
+            if (err) throw (err);
+            
+            result.perfume_catalog.section[obj.sec_n].perfume.push({'brand': obj.brand, 'name': obj.name, 'size': obj.size, 'price': obj.price});
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            jsToXmlFile('perfume_shop.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    appendJSON(req.body);
+
+    res.redirect('back');
+
+});
+
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function () {
     var addr = server.address();
