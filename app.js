@@ -4,9 +4,12 @@ var http = require('http'),
     fs = require('fs'),
     xmlParse = require('xslt-processor').xmlParse,
     xsltProcess = require('xslt-processor').xsltProcess;
+    
 
 var router = express();
 var server = http.createServer(router);
+
+router.use(express.static(path.resolve(__dirname, 'viwes')));
 
 router.get('/', function(req, res) {
 

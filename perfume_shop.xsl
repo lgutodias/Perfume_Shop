@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-        <html>
-            <meta charset="utf-8"/>
-        </html>
-
-        <table id="perfumeCatalog" border="1" class="indent">
+        <table id="perfumeTable" border="1" class="indent">
             <thead>
                 <tr>
                     <th colspan="5">Perfume Shop Items</th>
